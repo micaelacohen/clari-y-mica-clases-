@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt  
-
+ 
 def preparar_tiempo(df, columna_timestamp="timestamp"):
     """
     Crea una columna 'tiempo' que comienza en 0 segundos.
